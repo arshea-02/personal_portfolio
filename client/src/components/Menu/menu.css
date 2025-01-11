@@ -1,0 +1,26 @@
+.profile-pic img{
+    border-radius: 90px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.nav-item{
+    color: white;
+    font-size: 15px;
+    justify-content: center;
+    padding-left: 25px;
+}
+
+.nav-link{
+    padding: 15px;
+}
+
+.nav-link svg{
+    margin-right: 10px;
+}
+
+.nav-item:hover{
+    background-color: #97b3ac;
+}
