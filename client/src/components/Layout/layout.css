@@ -1,5 +1,11 @@
+.container{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
 .sidebar-section{
     display: flex;
+    background-color: #c7d4e5;
 }
 
 .sidebar{
