@@ -23,38 +23,38 @@ const Menu = ({ toggle }) => {
                 <GoHomeFill color="white" size="25px" />
                 Home
               </div>
-              </div>
-              <div className="nav-item">
+            </div>
+            <div className="nav-item">
               <div className="nav-link">
                 <BsClipboard2Fill color="white" size="25px" />
                 Experience
               </div>
-              </div>
-              <div className="nav-item">
+            </div>
+            <div className="nav-item">
               <div className="nav-link">
                 <BsFillLaptopFill color="white" size="25px" />
                 Skills Set
               </div>
-              </div>
-              <div className="nav-item">
+            </div>
+            <div className="nav-item">
               <div className="nav-link">
                 <RiGraduationCapFill color="white" size="25px" />
                 Education
               </div>
-              </div>
-              <div className="nav-item">
+            </div>
+            <div className="nav-item">
               <div className="nav-link">
                 <BsFillLightbulbFill color="white" size="25px" />
                 Projects
               </div>
-              </div>
-              <div className="nav-item">
+            </div>
+            <div className="nav-item">
               <div className="nav-link">
                 <FaCertificate color="white" size="25px" />
                 Certifications
               </div>
-              </div>
-              <div className="nav-item">
+            </div>
+            <div className="nav-item">
               <div className="nav-link">
                 <BsFillTelephoneFill color="white" size="25px" />
                 Contact
@@ -64,12 +64,12 @@ const Menu = ({ toggle }) => {
         </>
       ) : (
         <div className="nav-items">
-          <div className="nav-item">
+          <div className="nav-item align">
             <div className="nav-link">
               <GoHomeFill color="white" title="Home Page" size="25px" />
             </div>
           </div>
-          <div className="nav-item">
+          <div className="nav-item align">
             <div className="nav-link">
               <BsClipboard2Fill
                 color="white"
@@ -78,12 +78,12 @@ const Menu = ({ toggle }) => {
               />
             </div>
           </div>
-          <div className="nav-item">
+          <div className="nav-item align">
             <div className="nav-link">
               <BsFillLaptopFill color="white" title="Skills Set" size="25px" />
             </div>
           </div>
-          <div className="nav-item">
+          <div className="nav-item align">
             <div className="nav-link">
               <RiGraduationCapFill
                 color="white"
@@ -92,17 +92,17 @@ const Menu = ({ toggle }) => {
               />
             </div>
           </div>
-          <div className="nav-item">
+          <div className="nav-item align">
             <div className="nav-link">
               <BsFillLightbulbFill color="white" title="Projects" size="25px" />
             </div>
           </div>
-          <div className="nav-item">
+          <div className="nav-item align">
             <div className="nav-link">
               <FaCertificate color="white" title="certifications" size="25px" />
             </div>
           </div>
-          <div className="nav-item">
+          <div className="nav-item align">
             <div className="nav-link">
               <BsFillTelephoneFill
                 color="white"
