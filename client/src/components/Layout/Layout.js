@@ -4,10 +4,9 @@ import { RiMenu4Line } from "react-icons/ri";
 import HomePage from "../../pages/HomePage/HomePage";
 import "./layout.css";
 import Menu from "../Menu/Menu";
-import AboutPage from "../../pages/AboutPage/AboutPage";
 
 const Layout = () => {
-  const [toggle, setToggle] = useState(false);
+  const [toggle, setToggle] = useState(true);
 
   const handletoggle = () => {
     setToggle(!toggle);
@@ -32,7 +31,7 @@ const Layout = () => {
         </div>
         <div className="container">
           <HomePage />
-          <AboutPage />
+          <hr />
         </div>
       </div>
     </>

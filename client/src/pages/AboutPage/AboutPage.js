@@ -9,7 +9,7 @@ const AboutPage = () => {
           <div className="col-xl-6 col-lg-6 col-md-6 col-xs-12 about-img">
             <img src="Me_IEEE.jpg" alt="Profile Pic" />
           </div>
-          <div className="col-md-6 about-content">
+          <div className="col-xl-6 col-lg-6 col-md-6 col-xs-12 about-content">
             <h1>About Me</h1>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
