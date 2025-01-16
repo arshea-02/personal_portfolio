@@ -1,0 +1,89 @@
+.projects{
+    padding: 20px;
+    margin-top: 30px;
+    padding-left: 200px;
+}
+
+.projects hr{
+    color: #323e4f;
+    width: 400px;
+    margin: 10px auto;
+}
+
+.projects h2{
+    color: #323e4f;
+}
+
+#ads{
+    margin: 30px 0;
+}
+
+#ads .card-notify-badge{
+    position: absolute;
+    left: -10px;
+    top: -20px;
+    background: #06b727;
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.card img{
+    height: 150px;
+    width: 100%;
+}
+
+.card-detail-badge{
+    background-color: #323e4f;
+    text-align: center;
+    border-radius: 30px;
+    color: white;
+    padding: 3px 7px;
+    font-size: 12px;
+}
+
+.card-image-overlay{
+    font-size: 20px;
+}
+
+.card-image-overlay span{
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.card{
+    transition: all 0.5s ease;
+}
+
+.card:hover{
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transform: scale(1.05);
+}
+
+.ad-btn{
+    text-transform: uppercase;
+    width: 150px;
+    height: fit-content;
+    display: block;
+    text-align: center;
+    background-color: rgb(217, 129, 21);
+    color: white;
+    border-radius: 80px;
+    font-size: 16px;
+    line-height: 35px;
+    text-decoration: none;
+    margin: 20px auto;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.5s ease;
+}
+
+.ad-btn:hover{
+    background-color: #b70906;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    transform: scale(1.05);
+}
