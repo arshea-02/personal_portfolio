@@ -1,0 +1,31 @@
+.skillset{
+    padding-left: 200px;
+    margin-top: 40px;
+}
+
+.skillset hr{
+    color: #323e4f;
+    width: 400px;
+    margin: 10px auto;
+}
+
+.skillset h2{
+    color: #323e4f;
+}
+
+.skillset .card{
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.skillset .skill-icon{
+    font-size: 2rem;
+    margin-right: 5px;
+}
+
+.skillset .card:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgb(217, 129, 21);
+    color: #ffffff;
+    border: none;
+}
