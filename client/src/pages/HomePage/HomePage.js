@@ -1,5 +1,5 @@
 import React from "react";
-import Typewriter from "typewriter-effect";
+import Typewriter from 'typewriter-effect'
 import Resume from "../../assests/docs/Arshea Atif Resume.pdf";
 import "./home.css";
 
