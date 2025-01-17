@@ -1,0 +1,30 @@
+.work{
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 250px;
+    width: 60em;
+    background-color: #c7d4e5;
+}
+
+.work hr{
+    color: #323e4f;
+    width: 400px;
+    margin: 10px auto;
+}
+
+.work h2{
+    color: #323e4f;
+}
+
+.vertical-timeline-element-title{
+    color: #ffffff;
+}
+
+.vertical-timeline-element-subtitle{
+    color: #c7d4e5;
+}
+
+.timeline-content{
+    color: #eaf1fa;
+    font-weight: 300;
+}
