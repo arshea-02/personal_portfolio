@@ -26,8 +26,8 @@ const Menu = ({ toggle }) => {
             </div>
             <div className="nav-item">
               <div className="nav-link">
-                <BsClipboard2Fill color="white" size="25px" />
-                Experience
+                <RiGraduationCapFill color="white" size="25px" />
+                Education
               </div>
             </div>
             <div className="nav-item">
@@ -38,14 +38,14 @@ const Menu = ({ toggle }) => {
             </div>
             <div className="nav-item">
               <div className="nav-link">
-                <RiGraduationCapFill color="white" size="25px" />
-                Education
+                <BsFillLightbulbFill color="white" size="25px" />
+                Projects
               </div>
             </div>
             <div className="nav-item">
               <div className="nav-link">
-                <BsFillLightbulbFill color="white" size="25px" />
-                Projects
+                <BsClipboard2Fill color="white" size="25px" />
+                Experience
               </div>
             </div>
             <div className="nav-item">
@@ -71,9 +71,9 @@ const Menu = ({ toggle }) => {
           </div>
           <div className="nav-item align">
             <div className="nav-link">
-              <BsClipboard2Fill
+              <RiGraduationCapFill
                 color="white"
-                title="Work Experience"
+                title="Education"
                 size="25px"
               />
             </div>
@@ -85,16 +85,16 @@ const Menu = ({ toggle }) => {
           </div>
           <div className="nav-item align">
             <div className="nav-link">
-              <RiGraduationCapFill
-                color="white"
-                title="Education"
-                size="25px"
-              />
+              <BsFillLightbulbFill color="white" title="Projects" size="25px" />
             </div>
           </div>
           <div className="nav-item align">
             <div className="nav-link">
-              <BsFillLightbulbFill color="white" title="Projects" size="25px" />
+              <BsClipboard2Fill
+                color="white"
+                title="Work Experience"
+                size="25px"
+              />
             </div>
           </div>
           <div className="nav-item align">
