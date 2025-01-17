@@ -1,0 +1,15 @@
+.education{
+    padding: 20px;
+    margin-top: 30px;
+    padding-left: 200px;
+}
+
+.education hr{
+    color: #323e4f;
+    width: 400px;
+    margin: 10px auto;
+}
+
+.education h2{
+    color: #323e4f;
+}

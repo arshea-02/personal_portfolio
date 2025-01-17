@@ -1,5 +1,6 @@
 import Layout from "./components/Layout/Layout";
 import AboutPage from "./pages/AboutPage/AboutPage";
+import Education from "./pages/Education/Education";
 import Projects from "./pages/Projects/Projects";
 import SkillSet from "./pages/SkillSet/skillset";
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div>
       <Layout />
       <AboutPage />
+      <Education />
       <SkillSet />
       <Projects />
     </div>
