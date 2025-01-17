@@ -24,10 +24,12 @@ const Education = () => {
             iconStyle={{ background: "#323e4f", color: "#fff" }}
             icon={<RiGraduationCapFill />}
           >
-            <h3 className="vertical-timeline-element-title">
+            <h3>
               BS Computer Science
             </h3>
-            <h5 className="vertical-timeline-element-title">Kinnaird College for Women Lahore, Pakistan</h5>
+            <h5>
+              Kinnaird College for Women Lahore, Pakistan
+            </h5>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
