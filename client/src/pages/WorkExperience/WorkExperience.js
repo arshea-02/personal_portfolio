@@ -4,7 +4,6 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import { BsClipboard2Fill } from "react-icons/bs";
 import { FaThumbsUp } from "react-icons/fa";
 import { RiReactjsFill } from "react-icons/ri";
 import { SiCplusplus } from "react-icons/si";
