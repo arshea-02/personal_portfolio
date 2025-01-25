@@ -6,8 +6,12 @@ import SkillSet from "./pages/SkillSet/skillset";
 import WorkExperience from "./pages/WorkExperience/WorkExperience";
 import Certification from "./pages/Certifications/certification";
 import ContactInfo from "./pages/ContactInfo/ContactInfo";
+
+import './App.css';
+
 function App() {
   return (
+    <>
     <div>
       <Layout />
       <AboutPage />
@@ -18,6 +22,12 @@ function App() {
       <Certification />
       <ContactInfo />
     </div>
+    <div className="footer">
+        <p className="text-center">
+            Made By Arshea💜
+        </p>
+    </div>
+    </>
   );
 }
 
