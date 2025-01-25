@@ -1,13 +1,12 @@
 import React from "react";
 import { FaLinkedin } from "react-icons/fa";
-import { BiLogoGmail } from "react-icons/bi";
 import { FaGithub } from "react-icons/fa";
 import "./contact_info.css";
 
 const ContactInfo = () => {
   return (
     <>
-      <div className="container contact">
+      <div id="contact" className="container contact">
         <h2>CONTACT ME</h2>
         <div className="card1 d-flex card border-0">
           <h2>

@@ -12,7 +12,7 @@ import "./workexp.css";
 const WorkExperience = () => {
   return (
     <>
-      <div className="container work">
+      <div id="exp" className="container work">
         <h2 className="col-12 mt-3 mb-1 text-center text-uppercase">
           Work Experience
         </h2>

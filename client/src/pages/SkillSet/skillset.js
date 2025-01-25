@@ -5,7 +5,7 @@ import { SkillSetList } from "../../utils/SkillSetList";
 const skillset = () => {
   return (
     <>
-      <div className="container skillset">
+      <div id="skill" className="container skillset">
         <h2 className="col-12 mt-3 mb-1 text-center text-uppercase">Skill Set</h2>
         <hr />
         <p className="pb-3 text-center">

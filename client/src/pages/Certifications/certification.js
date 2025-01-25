@@ -11,7 +11,7 @@ import "./certifications.css";
 const certification = () => {
   return (
     <>
-      <div className="container certificates">
+      <div id="certification" className="container certificates">
         <h2 className="col-12 mt-3 mb-1 text-center text-uppercase">
           Certifications
         </h2>
