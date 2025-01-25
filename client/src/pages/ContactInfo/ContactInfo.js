@@ -8,48 +8,43 @@ const ContactInfo = () => {
   return (
     <>
       <div className="container contact">
-        <h2>Contact Me</h2>
-        <div className="row">
-          <div className="col-md-4 col-lg-4 col-xs-4 col-sm-12">
-            <a href="#" className="card border-0">
-              <div className="card-content">
-                <div className="media d-flex justify-content-center">
-                  <FaLinkedin className="contact-icon" />
-                  <div className="contact-name">
-                    <p className="contact-link">Arshea Atif</p>
-                  </div>
-                </div>
-              </div>
+        <h2>CONTACT ME</h2>
+        <div className="card1 d-flex card border-0">
+          <h2>
+            <a href="https://www.linkedin.com/in/arshea-atif-6a26b5248">
+              <FaLinkedin color="#323e4f" className="m-3" />
             </a>
-          </div>
-          <div className="col-md-3 col-lg-3 col-xs-3 col-sm-12">
-            <a href="#" className="card border-0">
-              <div className="card-content">
-                <div className="media d-flex justify-content-center">
-                    <FaGithub className="contact-icon"/>
-                  <div className="contact-name">
-                    <p className="contact-link">
-                      arshea-02
-                    </p>
-                  </div>
-                </div>
-              </div>
+            <a href="https://github.com/arshea-02">
+              <FaGithub color="#323e4f" className="m-3" />
             </a>
-          </div>
-          <div className="col-md-4 col-lg-4 col-xs-4 col-sm-12">
-            <a href="#" className="card border-0">
-              <div className="card-content">
-                <div className="media d-flex justify-content-center">
-                    <BiLogoGmail className="contact-icon"/>
-                  <div className="contact-name">
-                    <p className="contact-link">
-                      arsheaatif04@gmail.com
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
+          </h2>
+          <div className="line" />
+          <small className="or text-center">OR</small>
+          <div className="line" />
+
+          <form className="form m-3">
+            <input
+              type="text"
+              name="name"
+              placeholder="Enter Your Name"
+              className="mb-3"
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Enter Your Email"
+              className="mb-3"
+            />
+            <textarea
+              type="text"
+              name="msg"
+              placeholder="Message..."
+              className="mb-3"
+            />
+            <button className="btn btn-primary" type="submit">
+              Send
+            </button>
+          </form>
         </div>
       </div>
     </>
