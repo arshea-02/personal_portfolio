@@ -9,15 +9,12 @@ const skillset = () => {
         <h2 className="col-12 mt-3 mb-1 text-center text-uppercase">Skill Set</h2>
         <hr />
         <p className="pb-3 text-center">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, animi
-          atque. Molestiae, autem. Ullam corporis blanditiis quasi enim, nam,
-          numquam vitae animi quibusdam asperiores aliquam quas voluptatibus
-          commodi. Eaque, nulla.
+          Through different courses throughout my degree, internships and short courses, I gained the following skills. I also have familiarity with below mentioned tools necessary for web development. I am always eager to learn new technologies and tools to enhance my skill set.
         </p>
 
         <div className="row">
           {SkillSetList.map((skill) => (
-            <div key={skill._id} className="col-md-3">
+            <div key={skill._id} className="col-md-4">
               <div className="card m-2">
                 <div className="card-content">
                   <div className="card-body">

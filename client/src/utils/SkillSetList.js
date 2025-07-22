@@ -88,11 +88,6 @@ export const SkillSetList = [
   },
   {
     _id: 15,
-    name: "Wordpress",
-    icon: SiWordpress,
-  },
-  {
-    _id: 16,
     name: "MS Office",
     icon: TbBrandOffice,
   },

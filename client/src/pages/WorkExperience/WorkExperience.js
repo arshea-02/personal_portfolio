@@ -10,11 +10,12 @@ import { SiCplusplus } from "react-icons/si";
 import "./workexp.css";
 
 const WorkExperience = () => {
+
   return (
     <>
       <div id="exp" className="container work">
         <h2 className="col-12 mt-3 mb-1 text-center text-uppercase">
-          Work Experience
+          Experience
         </h2>
         <hr />
         <VerticalTimeline>
@@ -22,7 +23,7 @@ const WorkExperience = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: "#323e4f", color: "#323e4f" }}
             contentArrowStyle={{ borderRight: "7px solid #323e4f" }}
-            date="June 2024-Aug 2024"
+            date="Jun 2024-Aug 2024"
             iconStyle={{ background: "#323e4f", color: "#fff" }}
             icon={<RiReactjsFill />}
           >

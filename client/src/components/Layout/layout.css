@@ -45,3 +45,13 @@
     margin-left: 250px;
     justify-self: center;
 }
+
+@media(max-width: 600px){
+    .sidebar{
+        display: none;
+    }
+    .container hr{
+        width: 200px;
+        margin: 20px;
+    }
+}

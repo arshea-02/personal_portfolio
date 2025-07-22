@@ -90,3 +90,18 @@ input:focus, textarea:focus{
     outline: 1px solid #323e4f !important;
     outline-width: 0px;
 }
+
+@media(max-width: 600px){
+    .contact{
+        margin: 0;
+        padding: 0;
+        margin-top: 20px;
+    }
+    .contact h2{
+        justify-self: center;
+    }
+    .contact .card{
+        margin: 0;
+        margin-left: 20px;
+    }
+}

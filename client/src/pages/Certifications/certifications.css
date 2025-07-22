@@ -27,3 +27,15 @@
     color: #eaf1fa;
     font-weight: 300;
 }
+
+@media(max-width: 600px){
+    .certificates{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .certificates hr{
+        width: 300px;
+        margin-bottom: 10px;
+    }
+}

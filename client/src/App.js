@@ -9,11 +9,13 @@ import ContactInfo from "./pages/ContactInfo/ContactInfo";
 import ScrollToTop from "react-scroll-to-top";
 
 import "./App.css";
+import MobileNav from "./components/MobileNav/MobileNav";
 
 function App() {
   return (
     <>
       <div>
+        <MobileNav />
         <Layout />
         <AboutPage />
         <Education />
