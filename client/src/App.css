@@ -1,3 +1,16 @@
+.edu-about-row{
+    background-color: #c7d4e5;
+}
+
+.edu-section{
+    display: flex;
+}
+
+.about-section{
+    display: flex;
+    flex-direction: column
+}
+
 .footer{
     padding-left: 200px;
 }

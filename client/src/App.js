@@ -17,8 +17,14 @@ function App() {
       <div>
         <MobileNav />
         <Layout />
-        <AboutPage />
-        <Education />
+        <div className="row edu-about-row">
+          <div className="col-xl-6 col-lg-6 col-md-6 col-xs-12 edu-section">
+            <Education/>
+          </div>
+          <div className="col-xl-6 col-lg-6 col-md-6 col-xs-12 about-section">
+            <AboutPage />
+          </div>
+        </div>
         <SkillSet />
         <Projects />
         <WorkExperience />
