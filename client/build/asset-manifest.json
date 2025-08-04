@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.800e1261.css",
-    "main.js": "/static/js/main.d431d859.js",
+    "main.css": "/static/css/main.a0e9a5bc.css",
+    "main.js": "/static/js/main.e5906ff8.js",
     "static/js/488.5dc00adb.chunk.js": "/static/js/488.5dc00adb.chunk.js",
     "static/media/floral_fantasia.png": "/static/media/floral_fantasia.4b25d663302c32f8d66a.png",
     "static/media/Perfomix.png": "/static/media/Perfomix.8a4fea281ae2789d697d.png",
@@ -10,12 +10,12 @@
     "static/media/Arshea Atif Resume.pdf": "/static/media/Arshea Atif Resume.b1009288bc0603dda0a6.pdf",
     "static/media/personalportfolio.jpg": "/static/media/personalportfolio.015c2fffe3dab30e80df.jpg",
     "index.html": "/index.html",
-    "main.800e1261.css.map": "/static/css/main.800e1261.css.map",
-    "main.d431d859.js.map": "/static/js/main.d431d859.js.map",
+    "main.a0e9a5bc.css.map": "/static/css/main.a0e9a5bc.css.map",
+    "main.e5906ff8.js.map": "/static/js/main.e5906ff8.js.map",
     "488.5dc00adb.chunk.js.map": "/static/js/488.5dc00adb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.800e1261.css",
-    "static/js/main.d431d859.js"
+    "static/css/main.a0e9a5bc.css",
+    "static/js/main.e5906ff8.js"
   ]
 }
