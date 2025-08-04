@@ -1,7 +1,7 @@
 import React from "react";
 import TicketTap from "../../assests/images/TicketTap.jpg";
 import FloralFantasia from "../../assests/images/floral_fantasia.png";
-import PersonalPortfolio from "../../assests/images/personalportfolio.jpg";
+import PersonalPortfolio from "../../assests/images/personalPortfolio.jpg";
 import Perfomix from "../../assests/images/Perfomix.png";
 import "./projects.css";
 

@@ -1,3 +1,19 @@
 .footer{
     padding-left: 200px;
 }
+
+.footer .reacrt-scroll-to-top__button:hover{
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #000;
+}
+
+
+@media 
+(max-width: 600px){
+    .react-scroll-to-top__button{
+        bottom: 15px;
+        right: 15px;
+    }
+    
+}
