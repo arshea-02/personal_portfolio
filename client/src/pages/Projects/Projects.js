@@ -1,7 +1,7 @@
 import React from "react";
 import TicketTap from "../../assests/images/TicketTap.jpg";
 import FloralFantasia from "../../assests/images/floral_fantasia.png";
-import PersonalPortfolio from "../../assests/images/personalPortfolio.jpg";
+import PersonalPortfolio from "../../assests/images/personalportfolio.jpg";
 import Perfomix from "../../assests/images/Perfomix.png";
 import "./projects.css";
 
@@ -18,7 +18,10 @@ const Projects = () => {
         </h2>
         <hr />
         <p className="pb-3 text-center">
-          The following are the top web development projects I have worked on. They showcase my skills in full-stack development, front-end design, and problem-solving abilities. Each project is a testament to my dedication to creating efficient and user-friendly web applications.
+          The following are the top web development projects I have worked on.
+          They showcase my skills in full-stack development, front-end design,
+          and problem-solving abilities. Each project is a testament to my
+          dedication to creating efficient and user-friendly web applications.
         </p>
         <div id="ads" className="row">
           <div className="col-md-4 mb-5">
