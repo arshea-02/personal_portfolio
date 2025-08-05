@@ -1,7 +1,6 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
-import Resume from "../../assests/docs/Arshea Atif Resume.pdf";
-import FullStack from "../../assests/docs/Arshea Atif Resume Full Stack.pdf";
+import Resume from "../../assests/docs/Arshea Atif Resume Full Stack.pdf";
 import "./home.css";
 
 const HomePage = () => {
@@ -45,7 +44,7 @@ const HomePage = () => {
             </a>
             <a
               className="btn btn-cv"
-              href={FullStack}
+              href={Resume}
               target="_blank"
               rel="noreferrer"
             >
