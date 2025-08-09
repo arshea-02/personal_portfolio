@@ -10,7 +10,6 @@ import { FaPython } from "react-icons/fa6";
 import { SiCplusplus } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
 import { TbBrandOffice } from "react-icons/tb";
-import { SiWordpress } from "react-icons/si";
 import { SiPostman } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
 import { FaPhp } from "react-icons/fa";

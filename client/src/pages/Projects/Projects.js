@@ -28,6 +28,65 @@ const Projects = () => {
             <div className="card rounded">
               <div className="card-image">
                 <span className="card-notify-badge">Full Stack</span>
+                <span className="card-notify-badge">FYP</span>
+
+                <img src={Perfomix} alt="project4" />
+              </div>
+              <div className="card-image-overlay m-auto mt-2">
+                <span className="card-detail-badge">MERN</span>
+                <span className="card-detail-badge">TailwindCSS</span>
+                <span className="card-detail-badge">Python</span>
+                <span className="card-detail-badge">BERT</span>
+              </div>
+              <div className="card-body text-center">
+                <div className="ad-title m-auto">
+                  <h5 className="text-uppercase">
+                    Perfomix
+                  </h5>
+                </div>
+                <a
+                  href={perfomixURL}
+                  className="ad-btn"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+          </div>
+
+           <div className="col-md-4 mb-5">
+            <div className="card rounded">
+              <div className="card-image">
+                <span className="card-notify-badge">Frontend</span>
+                <img src={PersonalPortfolio} alt="project3" />
+              </div>
+              <div className="card-image-overlay m-auto mt-2">
+                <span className="card-detail-badge">React JS</span>
+                <span className="card-detail-badge">Bootstrap</span>
+
+              </div>
+              <div className="card-body text-center">
+                <div className="ad-title m-auto">
+                  <h5 className="text-uppercase">Personal Portfolio</h5>
+                </div>
+                <a
+                  href={portfolioURL}
+                  className="ad-btn"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+          </div>
+        
+          <div className="col-md-4 mb-5">
+            <div className="card rounded">
+              <div className="card-image">
+                <span className="card-notify-badge">Full Stack</span>
                 <img src={TicketTap} alt="project1" />
               </div>
               <div className="card-image-overlay m-auto mt-2">
@@ -69,64 +128,6 @@ const Projects = () => {
                 </div>
                 <a
                   href={flowerShopURL}
-                  className="ad-btn"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Source Code
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-4 mb-5">
-            <div className="card rounded">
-              <div className="card-image">
-                <span className="card-notify-badge">Full Stack</span>
-                <img src={PersonalPortfolio} alt="project3" />
-              </div>
-              <div className="card-image-overlay m-auto mt-2">
-                <span className="card-detail-badge">Node</span>
-                <span className="card-detail-badge">Express</span>
-                <span className="card-detail-badge">React JS</span>
-                <span className="card-detail-badge">MongoDB</span>
-              </div>
-              <div className="card-body text-center">
-                <div className="ad-title m-auto">
-                  <h5 className="text-uppercase">Personal Portfolio</h5>
-                </div>
-                <a
-                  href={portfolioURL}
-                  className="ad-btn"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Source Code
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-4">
-            <div className="card rounded">
-              <div className="card-image">
-                <span className="card-notify-badge">Full Stack</span>
-                <span className="card-notify-badge">FYP</span>
-
-                <img src={Perfomix} alt="project4" />
-              </div>
-              <div className="card-image-overlay m-auto mt-2">
-                <span className="card-detail-badge">MERN</span>
-                <span className="card-detail-badge">TailwindCSS</span>
-                <span className="card-detail-badge">Python</span>
-                <span className="card-detail-badge">BERT</span>
-              </div>
-              <div className="card-body text-center">
-                <div className="ad-title m-auto">
-                  <h5 className="text-uppercase">
-                    Perfomix; Employee Performance Managememnt System
-                  </h5>
-                </div>
-                <a
-                  href={perfomixURL}
                   className="ad-btn"
                   target="_blank"
                   rel="noreferrer"
